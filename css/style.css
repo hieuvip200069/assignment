@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+.header_area{
+  width: 100%;
+  height: 16%;
+  padding: 0%;
+}
+
+#imglogo{
+  width: 30px;
+}
+
+.header_area .main-menu .navbar {
+  color: #242936;
+  padding: 1rem 10rem;
+}
+
+.header_area .main-menu .container-fluid {
+text-transform: uppercase;
+font-weight: 500;
+padding: 1.7rem;
+color: white;
+} 
+
+.header_area .main-menu .navbar .active a{
+  background: linear-gradient();
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+
+.site-main .site-banner .site-title{
+  width: 49%;
+}
+
+.site-main .site-banner{
+  background-color: lightgray;
+}
+
+.site-main .site-banner .site-title{
+ padding-top: 12%;
+ font-weight: 500;
+}
+.site-main .site-banner .banner-image {
+  width: 50%;
+ 
+}
+
+

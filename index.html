@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+
+<body>
+  <header class="header_area">
+    <div class="main-menu">
+      <nav class="navbar navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./image/manager-flat-icon-symbol-vector-22669710.jpg" id="imglogo"
+              alt=""> Employee Manager</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Service
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                    <li><a class="dropdown-item" href="#">Read all Employee</a></li>
+                    <li><a class="dropdown-item" href="#">Update Employee</a></li>
+                    <li><a class="dropdown-item" href="#">Remove Employee</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Add new Employee</a></li>
+                  </ul>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- Main Area -->
+  <main class="site-main">
+    <section class="site-banner ">
+      <div class="container ">
+        <div class="row">
+          <div class="col-lg-6-md-12 site-title ">
+            <h3 class="title-text">Hey therre</h3>
+            <h1 class="title-text text-uppercase">We Are Team ?? </h1>
+            <h4 class="title-text text-uppercase">From MindX academy</h4>
+            <div class="site-buttom">
+              <div class="d-flex flex-row flex-wrap">
+                <button type="button" class="btn button primary-button mr-4 text-uppercase">about us</button>
+                <button type="button" class="btn button primary-button mr-4 text-uppercase">Contact</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6-md-12 banner-image">
+            <img src="./image/51310251-thin-line-flat-design-banner-of-business-people-teamwork-human-resources-career-opportunities-team-s.jpg" alt="banner-img" class="img-fluid">
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+    <section class="about-area"></section>
+
+    <!-- <section class="service-area">
+      <div class="container">
+        <div class="row">
+
+        </div>
+      </div>
+    </section> -->
+
+    
+    <section class="services-area">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12 text-center services-title">
+                  <h1 class="text-uppercase title-text">Services</h1>
+                  <p class="para">
+                    EMPLOYEE MANAGER have four 
+                  </p>
+              </div>
+          </div>
+          <div class="container services-list">
+              <div class="row">
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                      <div class="services">
+                          <div class="sevices-img text-center py-4">
+                              <img src="./img/services/s1.png" alt="Services-1">
+                          </div>
+                          <div class="card-body text-center">
+                              <h5 class="card-title text-uppercase font-roboto">Wp developer</h5>
+                              <p class="card-text text-secondary">
+                                  Some quick example text to build on the card
+                                  title and make up
+                                  the bulk of the card's content.
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                      <div class="services">
+                          <div class="sevices-img text-center py-4">
+                              <img src="./img/services/s2.png" alt="Services-2">
+                          </div>
+                          <div class="card-body text-center">
+                              <h5 class="card-title text-uppercase font-roboto">ux/ui desing</h5>
+                              <p class="card-text text-secondary">
+                                  Some quick example text to build on the card
+                                  title and make up
+                                  the bulk of the card's content.
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                      <div class="services">
+                          <div class="sevices-img text-center py-4">
+                              <img src="./img/services/s3.png" alt="Services-3">
+                          </div>
+                          <div class="card-body text-center">
+                              <h5 class="card-title text-uppercase font-roboto">web design</h5>
+                              <p class="card-text text-secondary">
+                                  Some quick example text to build on the card
+                                  title and make up
+                                  the bulk of the card's content.
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-12">
+                      <div class="services">
+                          <div class="sevices-img text-center py-4">
+                              <img src="./img/services/s4.png" alt="Services-4">
+                          </div>
+                          <div class="card-body text-center">
+                              <h5 class="card-title text-uppercase font-roboto">seo optimize</h5>
+                              <p class="card-text text-secondary">
+                                  Some quick example text to build on the card
+                                  title and make up
+                                  the bulk of the card's content.
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  </main>
+
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
