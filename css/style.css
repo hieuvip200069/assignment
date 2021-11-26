@@ -1,57 +1,433 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-
-html, body {
-  width: 100%;
-  height: 100%;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  font-weight: bold;
-}
-.header_area{
-  width: 100%;
-  height: 16%;
-  padding: 0%;
+html,
+body {
+    background-color: #f6f6f6;
 }
 
-#imglogo{
-  width: 30px;
+.fixed-top {
+    position: relative;
+}
+
+.header_area {
+    width: 100%;
+    height: 16%;
+    padding: 0%;
+}
+
+#imglogo {
+    width: 30px;
 }
 
 .header_area .main-menu .navbar {
-  color: #242936;
-  padding: 1rem 10rem;
+    color: #242936;
+    padding: 1rem 10rem;
 }
 
 .header_area .main-menu .container-fluid {
-text-transform: uppercase;
-font-weight: 500;
-padding: 1.7rem;
-color: white;
-} 
-
-.header_area .main-menu .navbar .active a{
-  background: linear-gradient();
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1.7rem;
+    color: white;
 }
 
-
-.site-main .site-banner .site-title{
-  width: 49%;
+.header_area .main-menu .navbar .active a {
+    background: linear-gradient();
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
-.site-main .site-banner{
-  background-color: lightgray;
+.site-main .site-banner .site-title {
+    width: 49%;
 }
 
-.site-main .site-banner .site-title{
- padding-top: 12%;
- font-weight: 500;
+.site-main .site-banner {
+    background-color: white;
 }
+
+.site-main .site-banner .site-title {
+    padding-top: 12%;
+    font-weight: 500;
+}
+
 .site-main .site-banner .banner-image {
-  width: 50%;
- 
+    width: 50%;
+}
+
+.Service-ReadList {
+    line-height: 50px;
+}
+
+.Service-ReadList .container {
+    height: 1330px;
+    border: lightgray solid 2px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-top: 50px;
+}
+
+.table-area {
+    border: lightgray solid 2px;
+}
+
+.elemen a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    border-bottom: lightgray solid 2px;
+}
+
+.elemen a:hover {
+    color: gray;
+}
+
+.tableBody {
+    height: 1180px;
+}
+
+.customer-row {
+    width: 100%;
+    height: 120px;
+}
+
+.serch-area {
+    width: 50%;
+    height: 20px;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.Display-Employee {
+    margin-top: 20px;
+    line-height: 2.4;
+}
+
+.dsnv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.dsns_1 {
+    background-color: #ffffff;
+    width: 30.00%;
+    border: beige solid 1px;
+    border-radius: 4px;
+    margin: 1%;
+}
+
+.dsns_1:hover {
+    background: #fff;
+    cursor: pointer;
+    top: 0;
+    z-index: 10;
+    transition: all .3s ease;
+    box-shadow: 0 1px 25px rgb(0 0 0 / 30%);
+}
+
+.heading h3 {
+    text-decoration-color: #5db451;
+}
+
+.inf-filter-box {
+    background-color: #ffffff;
+    text-align: 2.5;
+    display: flexbox;
+}
+
+.dsns_1 img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    background-color: beige;
+    border: beige solid 1px;
+    border-radius: 1px;
+}
+
+[id="img-custom"] {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    background-color: beige;
+    border: beige solid 1px;
+    border-radius: 1px;
+}
+
+.template-dsnv-title {
+    line-height: 1.4;
+    padding-left: 4%;
+    text-align: left;
+}
+
+.ShowInfBtn {
+    width: 100%;
+    border-radius: 30px;
+    border: 1px solid #347aeb;
+    background-color: #347aeb;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 40px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+
+.ShowInfBtn:hover {
+    cursor: pointer;
+    top: 0;
+    z-index: 10;
+    transition: all .3s ease;
+    box-shadow: 0 1px 25px rgb(0 0 0 / 30%);
 }
 
 
+/* login */
+
+.modal {
+    display: none;
+}
+
+.Service-login {
+    background: #f6f5f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    margin: -20px 0 50px;
+}
+
+.Service-login h1 {
+    font-weight: bold;
+    margin: 0;
+}
+
+.Service-login p {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    margin: 20px 0 30px;
+}
+
+.Service-login span {
+    font-size: 12px;
+}
+
+.Service-login a {
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 15px 0;
+}
+
+button {
+    border-radius: 20px;
+    border: 1px solid #FF4B2B;
+    background-color: #FF4B2B;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+button:focus {
+    outline: none;
+}
+
+button.ghost {
+    background-color: transparent;
+    border-color: #FFFFFF;
+}
+
+.Service-login form {
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    text-align: center;
+}
+
+.Service-login input {
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+}
+
+.Service-login .containerr {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+}
+
+.form-containerr {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    transition: all 0.6s ease-in-out;
+}
+
+.sign-in-containerr {
+    left: 0;
+    width: 50%;
+    z-index: 2;
+}
+
+.containerr.right-panel-active .sign-in-containerr {
+    transform: translateX(100%);
+}
+
+.sign-up-containerr {
+    left: 0;
+    width: 50%;
+    opacity: 0;
+    z-index: 1;
+}
+
+.containerr.right-panel-active .sign-up-containerr {
+    transform: translateX(100%);
+    opacity: 1;
+    z-index: 5;
+    animation: show 0.6s;
+}
+
+@keyframes show {
+    0%,
+    49.99% {
+        opacity: 0;
+        z-index: 1;
+    }
+    50%,
+    100% {
+        opacity: 1;
+        z-index: 5;
+    }
+}
+
+.overlay-containerr {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    transition: transform 0.6s ease-in-out;
+    z-index: 100;
+}
+
+.containerr.right-panel-active .overlay-containerr {
+    transform: translateX(-100%);
+}
+
+.overlay {
+    background: #FF416C;
+    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
+    background: linear-gradient(to right, #FF4B2B, #FF416C);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    color: #FFFFFF;
+    position: relative;
+    left: -100%;
+    height: 100%;
+    width: 200%;
+    transform: translateX(0);
+    transition: transform 0.6s ease-in-out;
+}
+
+.right-panel-active .overlay {
+    transform: translateX(50%);
+}
+
+.overlay-panel {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    transform: translateX(0);
+    transition: transform 0.6s ease-in-out;
+}
+
+.overlay-left {
+    transform: translateX(-20%);
+}
+
+.containerr.right-panel-active .overlay-left {
+    transform: translateX(0);
+}
+
+.overlay-right {
+    right: 0;
+    transform: translateX(0);
+}
+
+.containerr.right-panel-active .overlay-right {
+    transform: translateX(20%);
+}
+
+.social-containerr {
+    margin: 20px 0;
+}
+
+.social-containerr a {
+    border: 1px solid #DDDDDD;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    height: 40px;
+    width: 40px;
+}
+
+.Service-login footer {
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+}
+
+.Service-login footer p {
+    margin: 10px 0;
+}
+
+.Service-login footer i {
+    color: red;
+}
+
+.Service-login footer a {
+    color: #3c97bf;
+    text-decoration: none;
+}
