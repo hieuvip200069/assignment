@@ -59,7 +59,7 @@ let EmployeeList = [{
         Ten_Nv: 'Trần Đức Hiếu',
         Tuoi: '21',
         Gioi_Tinh: 'Nam',
-        img: 'https://soicauvn.com/wp-content/uploads/2020/04/20-hinh-anh-gai-xinh-toc-ngan-deo-kinh-cute-ngau-va-chat-nhat-18-768x1152.jpg',
+        img: 'https://toigingiuvedep.vn/wp-content/uploads/2021/07/mau-anh-the-dep-lam-the-can-cuoc.jpg',
         Phong_ban: 1,
         Chuc_vu: 1,
         So_Dien_Thoai: `0912100597`,
@@ -70,7 +70,7 @@ let EmployeeList = [{
         Ten_Nv: 'Trần Minh Nhựt',
         Tuoi: '18',
         Gioi_Tinh: 'Nam',
-        img: 'https://soicauvn.com/wp-content/uploads/2020/04/20-hinh-anh-gai-xinh-toc-ngan-deo-kinh-cute-ngau-va-chat-nhat-18-768x1152.jpg',
+        img: 'https://toigingiuvedep.vn/wp-content/uploads/2021/07/mau-anh-the-nen-trang-dep.jpg',
         Phong_ban: 2,
         Chuc_vu: 2,
         So_Dien_Thoai: `0916253112`,
@@ -81,7 +81,7 @@ let EmployeeList = [{
         Ten_Nv: 'Trần Duc Hanh',
         Tuoi: '18',
         Gioi_Tinh: 'Nam',
-        img: 'https://soicauvn.com/wp-content/uploads/2020/04/20-hinh-anh-gai-xinh-toc-ngan-deo-kinh-cute-ngau-va-chat-nhat-18-768x1152.jpg',
+        img: 'https://toigingiuvedep.vn/wp-content/uploads/2021/07/mau-anh-the-nam-sinh-dep.jpg',
         Phong_ban: 3,
         Chuc_vu: 3,
         So_Dien_Thoai: `0916253112`,
@@ -92,7 +92,7 @@ let EmployeeList = [{
         Ten_Nv: 'Trần Duc Anh Quan',
         Tuoi: '18',
         Gioi_Tinh: 'Nam',
-        img: 'https://soicauvn.com/wp-content/uploads/2020/04/20-hinh-anh-gai-xinh-toc-ngan-deo-kinh-cute-ngau-va-chat-nhat-18-768x1152.jpg',
+        img: 'https://toigingiuvedep.vn/wp-content/uploads/2021/07/mau-anh-the-dep-voi-ao-so-mi-trang.jpg',
         Phong_ban: 4,
         Chuc_vu: 4,
         So_Dien_Thoai: `0916253112`,
@@ -103,7 +103,7 @@ let EmployeeList = [{
         Ten_Nv: 'nguyen Thi Tuyet',
         Tuoi: '18',
         Gioi_Tinh: 'Nu',
-        img: 'https://soicauvn.com/wp-content/uploads/2020/04/20-hinh-anh-gai-xinh-toc-ngan-deo-kinh-cute-ngau-va-chat-nhat-18-768x1152.jpg',
+        img: 'https://toigingiuvedep.vn/wp-content/uploads/2021/07/mau-anh-the-dep-voi-ao-vec.jpg',
         Phong_ban: 5,
         Chuc_vu: 5,
         So_Dien_Thoai: `0916253112`,
@@ -114,7 +114,7 @@ let EmployeeList = [{
         Ten_Nv: 'Pham Linh Chi',
         Tuoi: '18',
         Gioi_Tinh: 'Nu',
-        img: 'https://soicauvn.com/wp-content/uploads/2020/04/20-hinh-anh-gai-xinh-toc-ngan-deo-kinh-cute-ngau-va-chat-nhat-18-768x1152.jpg',
+        img: 'https://toigingiuvedep.vn/wp-content/uploads/2021/07/mau-anh-the-cmnd-dep-nhu-hot-girl.jpg',
         Phong_ban: 6,
         Chuc_vu: 5,
         So_Dien_Thoai: `0916253112`,
@@ -125,7 +125,7 @@ let EmployeeList = [{
         Ten_Nv: 'Ngiem Quoc Anh',
         Tuoi: '18',
         Gioi_Tinh: 'Nam',
-        img: 'https://soicauvn.com/wp-content/uploads/2020/04/20-hinh-anh-gai-xinh-toc-ngan-deo-kinh-cute-ngau-va-chat-nhat-18-768x1152.jpg',
+        img: 'https://toigingiuvedep.vn/wp-content/uploads/2021/07/mau-anh-the-dep-cua-con-trai.jpg',
         Phong_ban: 6,
         Chuc_vu: 5,
         So_Dien_Thoai: `0916253112`,
@@ -136,7 +136,7 @@ let EmployeeList = [{
         Ten_Nv: 'Trinh Minh Nhat',
         Tuoi: '18',
         Gioi_Tinh: 'Nam',
-        img: 'https://avi.edu.vn/wp-content/uploads/2019/11/london-2393098.jpg',
+        img: 'https://toigingiuvedep.vn/wp-content/uploads/2021/07/anh-the.jpg',
         Phong_ban: 3,
         Chuc_vu: 5,
         So_Dien_Thoai: `0916253112`,
@@ -147,7 +147,7 @@ let EmployeeList = [{
         Ten_Nv: 'Nguyen Quynh Nga',
         Tuoi: '18',
         Gioi_Tinh: 'Nam',
-        img: 'https://soicauvn.com/wp-content/uploads/2020/04/20-hinh-anh-gai-xinh-toc-ngan-deo-kinh-cute-ngau-va-chat-nhat-18-768x1152.jpg',
+        img: 'https://toigingiuvedep.vn/wp-content/uploads/2021/07/anh-the-dep-nu.jpg',
         Phong_ban: 4,
         Chuc_vu: 5,
         So_Dien_Thoai: `0916253112`,
@@ -350,7 +350,6 @@ function login() {
         lstUser.forEach(element => {
             if (element.email == email) {
                 if (element.password == password) {
-                    alert(element.userName);
                     status = true;
                     // tao nguoi dung 
                     localStorage.setItem('userId', element.userId);
@@ -746,7 +745,6 @@ function createEmployee() {
     updateTable();
 
 }
-// updateStorge(EmployeeList);
-
+// updateStorge(EmployeeList);t
 UpdateList();
 checkUserLogin();
